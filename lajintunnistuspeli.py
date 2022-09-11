@@ -183,27 +183,27 @@ while True:
 
     # Väärin:
     if vastaus != x:
-        print("Voisit vielä hieman opiskella. :( Oikea vastaus olisi ollut: " + x + "\n")
+        print("Voisit vielä hieman opiskella. Oikea vastaus olisi ollut: " + x + "\n")
 
     # Oikein:
     if vastaus == x:
-        z = "Fantastista! :)"
-        d = "Huikeaa! XD"
-        e = "Upeata! :P"
-        t = "Oikein! Hihi"
-        o = "Oletpa taitava! :D"
-        p = "Hienoa! :S"
-        h = "Fiksua menoa! :3"
-        s = "Jippii!!"
-        u = "Kivasti meni tällä kertaa. Otetaanpa astetta hankalampi seuraavaksi ;)"
-        g = "Oivaa aivotyöskentelyä, ystävä hyvä."
+        z = "Fantastista!"
+        d = "Huikeaa!"
+        e = "Upeaa!"
+        t = "Oikein!"
+        o = "Oletpa taitava!"
+        p = "Hienoa!"
+        h = "Fiksua menoa!"
+        s = "Jippii!"
+        u = "Kivasti meni tällä kertaa. Otetaanpa astetta hankalampi seuraavaksi."
+        g = "Oivaa aivotyöskentelyä."
         q = "Einstein kääntyy haudassaan kateudesta."
         n = "Bonustehtävä: Nimeä kyseisen lajin elinympäristö, pääravinnonlähde ja suurin uhka yksilön ja lajin " \
-            "olemassaololle. Jos et osannut, tee 10 kyykkyä. Ole hyvä. Tiedän että olet kiitollinen."
+            "olemassaololle."
         print(random.choice([z, d, e, t, o, p, h, s, u, g, q, n]) + "\n")
         idx = y.index(y2)
         y.pop(idx)
         if len(y) == 0:
             del objektit[x]
 
-input("Onnitteluni. Tunnistit kaikki. Pidä yllä hyvää työtä. Hyvää yötä.")
+input("Onnitteluni. Tunnistit kaikki. Pidä yllä hyvää työtä.")
